@@ -23,16 +23,16 @@
 
 &emsp;&emsp;人物关系类别频数分布条形图如下：
 
-![](https://github.com/chenlian-zhou/nlp/tree/master/people_relation_extract/blob/master/data/bar_chart.png)
+![](https://github.com/chenlian-zhou/people_relation_extract/blob/master/people_relation_extract/data/bar_chart.png)
 
 
 &emsp;&emsp;模型结构： BERT + 双向GRU + Attention + FC 
 
-![](https://github.com/chenlian-zhou/nlp/tree/master/people_relation_extract/blob/master/model.png)
+![](https://github.com/chenlian-zhou/people_relation_extract/blob/master/people_relation_extract/model.png)
 
 &emsp;&emsp;模型训练效果：
 
-![](https://github.com/chenlian-zhou/nlp/tree/master/people_relation_extract/blob/master/loss_acc.png)
+![](https://github.com/chenlian-zhou/people_relation_extract/blob/master/people_relation_extract/loss_acc.png)
 
 ```
 # 训练集(train), loss: 0.0260, acc: 0.9941

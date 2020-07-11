@@ -8,8 +8,9 @@ df = pd.read_excel('人物关系表.xlsx')
 label_list = list(df['关系'].value_counts().index)
 num_list = df['关系'].value_counts().tolist()
 
-# Mac系统设置中文字体支持
-plt.rcParams["font.family"] = 'Arial Unicode MS'
+# 解决中文显示问题
+plt.rcParams['font.sans-serif'] = ['SimHei'] # 指定默认字体
+plt.rcParams['axes.unicode_minus'] = False # 解决保存图像是负号'-'显示为方块的问题
 
 # 利用Matplotlib模块绘制条形图
 x = range(len(num_list))
